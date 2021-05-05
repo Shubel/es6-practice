@@ -1,5 +1,5 @@
 class Student{
-    constructor(sID, sName){
+    constructor(sID, sName) {
         this.id = sID;
         this.name = sName;
         this.school = "kader Molla high School";

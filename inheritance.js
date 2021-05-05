@@ -1,15 +1,15 @@
 class Parent{
-    constructor(){
+    constructor() {
         this.fatherName = "Schwarzenegger";
     }
 }
 
 class Child extends Parent{
-    constructor(name){
+    constructor(name) {
         super();
         this.name = name;
     }
-    getFullName(){
+    getFullName() {
         return this.name + " " + this.fatherName;
     }
 }
